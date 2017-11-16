@@ -1,0 +1,59 @@
+
+h3 {
+  font-family: 'VT323';
+  font-weight: bold;
+  font-size: 35px;
+  color: #728392;
+  margin-bottom: 0;
+}
+
+.countainer {
+  width:100%;
+  height: auto;
+  position: absolute;
+  margin: auto;
+}
+
+.image {
+  float: left;
+  position: relative;
+  display:inline-block;
+  vertical-align:top;
+  overflow:hidden;
+  margin-left: 0px;
+  padding-right: 28px;
+
+}
+
+.image:nth-child(4) {
+  clear: left;
+}
+
+
+
+hr {
+  height: 5px;
+  width: 7%;
+  background-color:#3B3F47;
+  margin-left: 0; /*Se establecen los margenes o la línea se posiciona en el centro*/
+  margin-right: 50%
+}
+
+img {
+  width: 100%;
+  position: relative;
+  border: 8px, 8px, 8px, 8px;
+  border-color: white;
+}
+
+.image > div {
+  position: relative;
+  bottom: 40px;
+  color: white;
+  text-shadow: 45px gray;
+  text-align-last: right;
+  font-family: 'VT323';
+  font-weight: bold;
+  font-size: 22px;
+  text-shadow: 3px 3px 2px #16222A;
+}
